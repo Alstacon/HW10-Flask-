@@ -12,6 +12,7 @@ class Person:
         return f"<p>Кандидат - {self.name}</p><p>Позиция - {self.position}</p><p>Скиллы - {self.skills}</p>"
 
     def index(self, database):
+        """ Returns the full list of candidates"""
         for i in database:
             return f"<p>Кандидат - {self.name}</p>" \
                    f"<p>Позиция - {self.position}</p>" \
